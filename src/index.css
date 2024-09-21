@@ -1,3 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+}
+
+.heading-one {
+  @apply text-3xl font-bold leading-[40px] tracking-[4.17px] md:text-[40px] md:leading-[48px];
+}
+
+.heading-two {
+  @apply text-2xl font-bold;
+}
+
+.heading-three {
+  @apply text-[18px] font-bold;
+}
+
+.heading-four {
+  @apply text-xs font-bold;
+}
+
+.theme-main-btn {
+  @apply cursor-pointer bg-black px-6 py-3 text-xs font-bold uppercase tracking-[2px] text-white hover:bg-[#979797] hover:text-black;
+}
+
+.theme-secondary-btn {
+  @apply cursor-pointer text-xs font-bold uppercase tracking-[2px] text-black hover:underline;
+}
+
+.darkbg-main-btn {
+  @apply cursor-pointer bg-white px-6 py-3 text-xs font-bold uppercase tracking-[2px] text-black hover:bg-[#979797];
+}
+
+.darkbg-secondary-btn {
+  @apply cursor-pointer text-xs font-bold uppercase tracking-[2px] text-white hover:underline;
+}

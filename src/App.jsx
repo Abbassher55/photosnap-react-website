@@ -1,3 +1,25 @@
-export default function App() {
-  return <h1 className="text-3xl font-bold bg-slate-500 underline">Hello world!</h1>;
-}
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Stories from "./pages/Stories";
+import Features from "./pages/Features";
+import Pricing from "./pages/Pricing";
+import NotFound from "./pages/NotFound";
+import NavBar from "./components/Navbar";
+
+const App = () => {
+  return (
+    <>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/stories" element={<Stories />} />
+        <Route path="/features" element={<Features />} />
+        <Route path="/pricing" element={<Pricing />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </>
+  );
+};
+
+export default App;
