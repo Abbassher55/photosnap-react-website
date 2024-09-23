@@ -1,3 +1,4 @@
+//Homepage images
 import heroImgDesktop from "./assets/home/desktop/create-and-share.jpg";
 import heroImgTablet from "./assets/home/tablet/create-and-share.jpg";
 import heroImgMobile from "./assets/home/mobile/create-and-share.jpg";
@@ -9,7 +10,21 @@ import beautifulStoriesMobile from "./assets/home/mobile/beautiful-stories.jpg";
 import designForEveryoneDesktop from "./assets/home/desktop/designed-for-everyone.jpg";
 import designForEveryoneTablet from "./assets/home/tablet/designed-for-everyone.jpg";
 import designForEveryoneMobile from "./assets/home/mobile/designed-for-everyone.jpg";
+
+// Story card images
 import mountainImage from "./assets/stories/desktop/mountains.jpg";
+import cityScapeImage from "./assets/stories/desktop/cityscapes.jpg";
+import voyageImage from "./assets/stories/desktop/18-days-voyage.jpg";
+import architecturals from "./assets/stories/desktop/architecturals.jpg";
+import worldTourImage from "./assets/stories/desktop/world-tour.jpg";
+import unforeseenImage from "./assets/stories/desktop/unforeseen-corners.jpg";
+import tripNowhereImage from "./assets/stories/desktop/trip-to-nowhere.jpg";
+import wavesImage from "./assets/stories/desktop/behind-the-waves.jpg";
+
+// homeThreeSetionData images
+import responsive from "./assets/icons/responsive.png";
+import forever from "./assets/icons/forever.png";
+import bullhorn from "./assets/icons/bullhorn.png";
 
 export const homeSectionsData = [
   {
@@ -52,6 +67,117 @@ export const homeSectionsData = [
 
 export const storiesCards = [
   {
+    title: "the mountain",
+    storyBy: "by John Appleseed",
     storyImage: mountainImage,
+    date: "April 16th 2020",
+  },
+  {
+    title: "Sunset Cityscapes",
+    storyBy: "by Benjamin Cruz",
+    storyImage: cityScapeImage,
+    date: "April 14th 2020",
+  },
+  {
+    title: "18 Days Voyage",
+    storyBy: "by Alexei Borodin",
+    storyImage: voyageImage,
+    date: "April 11th 2020",
+  },
+  {
+    title: "Architecturals",
+    storyBy: "by Samantha Brooke",
+    storyImage: architecturals,
+    date: "April 9th 2020",
+  },
+  {
+    title: "World Tour 2019",
+    storyBy: "by Timothy Wagner",
+    storyImage: worldTourImage,
+    date: "April 7th 2020",
+  },
+  {
+    title: "Unforeseen Corners",
+    storyBy: "by William Malcolm",
+    storyImage: unforeseenImage,
+    date: "April 3rd 2020",
+  },
+  {
+    title: "The Trip to Nowhere",
+    storyBy: "by Felicia Rourke",
+    storyImage: tripNowhereImage,
+    date: "March 21st 2020",
+  },
+  {
+    title: "Behind the Waves",
+    storyBy: "by Lamarr Wilson",
+    storyImage: wavesImage,
+    date: "March 11th 2020",
+  },
+  {
+    title: "the mountain",
+    storyBy: "by John Appleseed",
+    storyImage: mountainImage,
+    date: "April 16th 2020",
+  },
+  {
+    title: "Sunset Cityscapes",
+    storyBy: "by Benjamin Cruz",
+    storyImage: cityScapeImage,
+    date: "April 14th 2020",
+  },
+  {
+    title: "18 Days Voyage",
+    storyBy: "by Alexei Borodin",
+    storyImage: voyageImage,
+    date: "April 11th 2020",
+  },
+  {
+    title: "Architecturals",
+    storyBy: "by Samantha Brooke",
+    storyImage: architecturals,
+    date: "April 9th 2020",
+  },
+  {
+    title: "World Tour 2019",
+    storyBy: "by Timothy Wagner",
+    storyImage: worldTourImage,
+    date: "April 7th 2020",
+  },
+  {
+    title: "Unforeseen Corners",
+    storyBy: "by William Malcolm",
+    storyImage: unforeseenImage,
+    date: "April 3rd 2020",
+  },
+  {
+    title: "The Trip to Nowhere",
+    storyBy: "by Felicia Rourke",
+    storyImage: tripNowhereImage,
+    date: "March 21st 2020",
+  },
+  {
+    title: "Behind the Waves",
+    storyBy: "by Lamarr Wilson",
+    storyImage: wavesImage,
+    date: "March 11th 2020",
+  },
+];
+
+export const homeThreeSetionData = [
+  {
+    image: responsive,
+    title: "100% Responsive",
+    desc: "No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.",
+  },
+  {
+    image: forever,
+    title: "No Photo Upload Limit",
+    desc: "Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go.",
+  },
+  {
+    image: bullhorn,
+    title: "Available to Embed",
+    desc: "Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. ",
   },
 ];

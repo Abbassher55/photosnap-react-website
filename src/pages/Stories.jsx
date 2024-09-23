@@ -1,5 +1,14 @@
+import PagesHeader from "../components/PagesHeader";
+import StoriesCards from "../components/StoriesCards";
+import { storiesCards } from "../data";
+
 const Stories = () => {
-  return <>This is Stories page</>;
+  return (
+    <>
+      <PagesHeader />
+      <StoriesCards data={storiesCards} />
+    </>
+  );
 };
 
 export default Stories;
