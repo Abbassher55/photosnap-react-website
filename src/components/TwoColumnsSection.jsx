@@ -13,28 +13,30 @@ const TwoColumnsSection = ({ data }) => {
               <h1 className="heading-one uppercase">
                 {sectionData.textHeading}
               </h1>
-              <p className="mt-5">{sectionData.phrgh}</p>
-              <button
-                className={`${sectionData.bgDark ? "darkbg-secondary-btn" : "theme-secondary-btn"} mt-12 flex items-center gap-3`}
-              >
-                {sectionData.btnText}
-                <span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="currentColor"
-                    className="size-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
-                    />
-                  </svg>
-                </span>
-              </button>
+              <p className="mt-5 opacity-75">{sectionData.phrgh}</p>
+              {sectionData.btnText && (
+                <button
+                  className={`${sectionData.bgDark ? "darkbg-secondary-btn" : "theme-secondary-btn"} mt-12 flex items-center gap-3`}
+                >
+                  {sectionData.btnText}
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              )}
             </div>
           </div>
           <div className="img-side md:w-1/3 lg:w-1/2">

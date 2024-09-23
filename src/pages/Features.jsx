@@ -1,7 +1,13 @@
+import ThreeColumnsSection from "../components/ThreeColumnsSection";
+import TwoColumnsSection from "../components/TwoColumnsSection";
+import { featuresHeader } from "../data";
+import { featureThreeSectionData } from "../data";
+
 const Features = () => {
   return (
     <>
-      <div>This is Features page</div>
+      <TwoColumnsSection data={featuresHeader} />
+      <ThreeColumnsSection threeSectionData={featureThreeSectionData} />
     </>
   );
 };

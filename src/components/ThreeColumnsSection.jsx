@@ -1,9 +1,8 @@
-import { homeThreeSetionData } from "../data";
-const ThreeColumnsSection = () => {
+const ThreeColumnsSection = ({ threeSectionData }) => {
   return (
     <div className="container py-10 lg:py-32">
-      <div className="mx-auto grid gap-20 md:w-3/4 lg:grid-cols-3 lg:gap-4">
-        {homeThreeSetionData.map((card, index) => (
+      <div className="mx-auto grid gap-20 md:w-3/4 lg:grid-cols-3 lg:gap-24">
+        {threeSectionData.map((card, index) => (
           <div
             key={index}
             className="flex flex-col items-center justify-center px-5"
