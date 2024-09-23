@@ -26,6 +26,16 @@ import responsive from "./assets/icons/responsive.png";
 import forever from "./assets/icons/forever.png";
 import bullhorn from "./assets/icons/bullhorn.png";
 
+// feature header image
+import featureHeaderDesktop from "./assets/features/desktop/hero.jpg";
+import featureHeaderTablet from "./assets/features/tablet/hero.jpg";
+import featureHeaderMobile from "./assets/features/mobile/hero.jpg";
+
+// Pricing header image
+import pricingHeaderDesktop from "./assets/pricing/desktop/hero.jpg";
+import pricingHeaderTablet from "./assets/pricing/tablet/hero.jpg";
+import pricingHeaderMobile from "./assets/pricing/mobile/hero.jpg";
+
 // featureThreeSectionData images
 import customDomain from "./assets/icons/custom-domain.svg";
 import exposure from "./assets/icons/exposure.svg";
@@ -186,6 +196,22 @@ export const homeThreeSetionData = [
     desc: "Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. ",
   },
 ];
+
+export const featuresHeader = [
+  {
+    textHeading: "features",
+    phrgh:
+      "We make sure all of our features are designed to be loved by every aspiring and even professional photograpers who wanted to share their stories.",
+    btnText: false,
+    bgDark: true,
+    rowReverse: false,
+    hasBefore: true,
+    sectionImgDesktop: featureHeaderDesktop,
+    sectionImgTablet: featureHeaderTablet,
+    sectionImgMobile: featureHeaderMobile,
+  },
+];
+
 export const featureThreeSectionData = [
   {
     image: responsive,
@@ -219,17 +245,17 @@ export const featureThreeSectionData = [
   },
 ];
 
-export const featuresHeader = [
+export const PricingHeader = [
   {
-    textHeading: "features",
+    textHeading: "pricing",
     phrgh:
-      "We make sure all of our features are designed to be loved by every aspiring and even professional photograpers who wanted to share their stories.",
+      "Create a your stories, Photosnap is a platform for photographers and visual storytellers. It’s the simple way to create and share your photos.",
     btnText: false,
     bgDark: true,
     rowReverse: false,
     hasBefore: true,
-    sectionImgDesktop: heroImgDesktop,
-    sectionImgTablet: heroImgTablet,
-    sectionImgMobile: heroImgMobile,
+    sectionImgDesktop: pricingHeaderDesktop,
+    sectionImgTablet: pricingHeaderTablet,
+    sectionImgMobile: pricingHeaderMobile,
   },
 ];

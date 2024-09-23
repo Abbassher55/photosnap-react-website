@@ -1,7 +1,13 @@
+import { useLocation } from "react-router-dom";
+
 const ThreeColumnsSection = ({ threeSectionData }) => {
+  const location = useLocation();
+  const currentLink = (path) => location.pathname === path;
   return (
     <div className="container py-10 lg:py-32">
-      <div className="mx-auto grid gap-20 md:w-3/4 lg:grid-cols-3 lg:gap-24">
+      <div
+        className={`${currentLink("/features") ? "md:grid-cols-2" : ""} mx-auto grid gap-20 md:w-3/4 lg:grid-cols-3 lg:gap-24`}
+      >
         {threeSectionData.map((card, index) => (
           <div
             key={index}
