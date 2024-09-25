@@ -2,7 +2,7 @@ import headerImage from "../assets/stories/desktop/header-bitmap.jpg";
 const PagesHeader = () => {
   return (
     <div
-      className="container flex items-center bg-[url(${headerImage})] bg-cover px-4 text-white md:h-[650px] md:px-28"
+      className="container flex items-center bg-[url(${headerImage})] bg-cover px-4 py-16 text-white md:h-[650px] md:px-28"
       style={{ backgroundImage: `url(${headerImage})` }}
     >
       <div className="md:w-1/3">

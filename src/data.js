@@ -259,3 +259,26 @@ export const PricingHeader = [
     sectionImgMobile: pricingHeaderMobile,
   },
 ];
+export const PricingCardsData = [
+  {
+    heading: "basic",
+    phrgh:
+      "Includes basic usage of our platform. Recommended for new and aspiring photographers.",
+    monthlyPrice: "$19.00",
+    yearlyPrice: "$199.00",
+  },
+  {
+    heading: "Pro",
+    phrgh:
+      "More advanced features available. Recommended for photography veterans and professionals.",
+    monthlyPrice: "$39.00",
+    yearlyPrice: "$399.00",
+  },
+  {
+    heading: "business",
+    phrgh:
+      "More advanced features available. Recommended for photography veterans and professionals.",
+    monthlyPrice: "$99.00",
+    yearlyPrice: "$999.00",
+  },
+];
