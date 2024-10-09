@@ -1,11 +1,11 @@
 //Homepage images
-import heroImgDesktop from "./assets/home/desktop/create-and-share.jpg";
-import heroImgTablet from "./assets/home/tablet/create-and-share.jpg";
-import heroImgMobile from "./assets/home/mobile/create-and-share.jpg";
+import heroImgDesktop from "./assets/home/desktop/create-and-share.png";
+import heroImgTablet from "./assets/home/tablet/create-and-share.png";
+import heroImgMobile from "./assets/home/mobile/create-and-share.png";
 
-import beautifulStoriesDesktop from "./assets/home/desktop/beautiful-stories.jpg";
-import beautifulStoriesTablet from "./assets/home/tablet/beautiful-stories.jpg";
-import beautifulStoriesMobile from "./assets/home/mobile/beautiful-stories.jpg";
+import beautifulStoriesDesktop from "./assets/home/desktop/beautiful-stories.png";
+import beautifulStoriesTablet from "./assets/home/tablet/beautiful-stories.png";
+import beautifulStoriesMobile from "./assets/home/mobile/beautiful-stories.png";
 
 import designForEveryoneDesktop from "./assets/home/desktop/designed-for-everyone.jpg";
 import designForEveryoneTablet from "./assets/home/tablet/designed-for-everyone.jpg";
