@@ -7,14 +7,14 @@ import beautifulStoriesDesktop from "./assets/home/desktop/beautiful-stories.png
 import beautifulStoriesTablet from "./assets/home/tablet/beautiful-stories.png";
 import beautifulStoriesMobile from "./assets/home/mobile/beautiful-stories.png";
 
-import designForEveryoneDesktop from "./assets/home/desktop/designed-for-everyone.jpg";
-import designForEveryoneTablet from "./assets/home/tablet/designed-for-everyone.jpg";
-import designForEveryoneMobile from "./assets/home/mobile/designed-for-everyone.jpg";
+import designForEveryoneDesktop from "./assets/home/desktop/designed-for-everyone.png";
+import designForEveryoneTablet from "./assets/home/tablet/designed-for-everyone.png";
+import designForEveryoneMobile from "./assets/home/mobile/designed-for-everyone.png";
 
 // Story card images
 import mountainImage from "./assets/stories/desktop/mountains.jpg";
 import cityScapeImage from "./assets/stories/desktop/cityscapes.jpg";
-import voyageImage from "./assets/stories/desktop/18-days-voyage.jpg";
+import voyageImage from "./assets/stories/desktop/18-days-voyage.png";
 import architecturals from "./assets/stories/desktop/architecturals.jpg";
 import worldTourImage from "./assets/stories/desktop/world-tour.jpg";
 import unforeseenImage from "./assets/stories/desktop/unforeseen-corners.jpg";
@@ -32,9 +32,9 @@ import featureHeaderTablet from "./assets/features/tablet/hero.jpg";
 import featureHeaderMobile from "./assets/features/mobile/hero.jpg";
 
 // Pricing header image
-import pricingHeaderDesktop from "./assets/pricing/desktop/hero.jpg";
-import pricingHeaderTablet from "./assets/pricing/tablet/hero.jpg";
-import pricingHeaderMobile from "./assets/pricing/mobile/hero.jpg";
+import pricingHeaderDesktop from "./assets/pricing/desktop/hero.png";
+import pricingHeaderTablet from "./assets/pricing/tablet/hero.png";
+import pricingHeaderMobile from "./assets/pricing/mobile/hero.png";
 
 // featureThreeSectionData images
 import customDomain from "./assets/icons/custom-domain.svg";
